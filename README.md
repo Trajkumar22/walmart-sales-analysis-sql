@@ -1,9 +1,21 @@
 Walmart Sales Data Analysis
+
+
 Project Overview
+
+
 This project involves analyzing Walmart sales data to understand top-performing branches and products, sales trends of different products, and customer behavior. The analysis aims to provide insights that can help increase sales and improve customer satisfaction.
 
+
+
+
 Database Schema
+
 The analysis is based on a MySQL database with the following structure:
+
+
+
+
 
 CREATE TABLE sales(
     invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
@@ -24,6 +36,8 @@ CREATE TABLE sales(
     gross_income DECIMAL(12, 4),
     rating FLOAT(2, 1)
 )
+
+
 Features
 The analysis includes several key aspects:
 
